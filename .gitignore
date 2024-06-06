@@ -1,6 +1,6 @@
 repos/M-DEW/src/__pycache__/
 *.pyc
-data/
+
 # Ignore Python bytecode files
 *.py[cod]
 
