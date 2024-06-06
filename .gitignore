@@ -1,1 +1,32 @@
 repos/M-DEW/src/__pycache__/
+*.pyc
+data/
+# Ignore Python bytecode files
+*.py[cod]
+
+# Ignore virtual environment directories
+.venv/
+env/
+
+# Ignore Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Ignore log files
+*.log
+
+# Ignore database files
+*.sqlite3
+
+# Ignore IDE specific files
+.idea/
+.vscode/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore OS specific files
+.DS_Store
+Thumbs.db
