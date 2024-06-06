@@ -1,8 +1,9 @@
-repos/M-DEW/src/__pycache__/
-*.pyc
-
 # Ignore Python bytecode files
 *.py[cod]
+
+# Ignore `__pycache__` directories
+__pycache__/
+src/__pycache__/
 
 # Ignore virtual environment directories
 .venv/
@@ -13,6 +14,10 @@ env/
 *.egg-info/
 dist/
 build/
+
+# Ignore data directories
+data/
+Experiment_Trials/
 
 # Ignore log files
 *.log
@@ -30,3 +35,6 @@ build/
 # Ignore OS specific files
 .DS_Store
 Thumbs.db
+
+# Ignore requirements file
+requirements.txt
