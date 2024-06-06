@@ -1231,8 +1231,8 @@ SUPPORTED_DATASET_NAMES = [
 
 CURRENT_SUPPORTED_DATALOADERS = {
     # 'eeg_eye_state': DataLoadersEnum.prepare_eeg_eye_data
-      'Cleveland Heart Disease': DataLoadersEnum.prepare_cleveland_heart_data
-     #'diabetic_retinopathy': DataLoadersEnum.prepare_diabetic_retinopathy_dataset
+    #   'Cleveland Heart Disease': DataLoadersEnum.prepare_cleveland_heart_data
+     'diabetic_retinopathy': DataLoadersEnum.prepare_diabetic_retinopathy_dataset
     ##'wpbc': DataLoadersEnum.prepare_wpbc_data,
     # 'wdbc': DataLoadersEnum.prepare_wdbc_data
     # 'parkinsons': DataLoadersEnum.prepare_parkinsons_data,

@@ -36,5 +36,16 @@ Experiment_Trials/
 .DS_Store
 Thumbs.db
 
-# Ignore requirements file
-requirements.txt
+# Ignore image files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.tif
+*.svg
+*.ico
+*.webp
+*.heic
+
